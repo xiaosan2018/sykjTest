@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/goodsList/goodsList"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#555",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页1",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "/images/indexSelected.png"
+      },
+      {
+        "pagePath": "pages/goodsList/goodsList",
+        "text": "商品列表",
+        "iconPath": "/images/goodsList.png",
+        "selectedIconPath": "/images/goodsListSelected.png"
+      }
+    ]
+  }
+}
